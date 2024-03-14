@@ -1,0 +1,2 @@
+2024-03-13 15:57:23.891  INFO 18580 --- [Thread-14] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2024-03-13 15:57:23.988  INFO 18580 --- [Thread-14] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

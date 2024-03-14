@@ -1,0 +1,18 @@
+2024-03-13 16:34:45.821  INFO 40248 --- [main] com.javaclimb.shopping.Application       : Starting Application v1.0.0-SNAPSHOT on DESKTOP-4P5KO17 with PID 40248 (E:\ideaspace\shopping\target\shopping.jar started by cw in E:\ideaspace\shopping\target)
+2024-03-13 16:34:45.826  INFO 40248 --- [main] com.javaclimb.shopping.Application       : No active profile set, falling back to default profiles: default
+2024-03-13 16:34:45.933  INFO 40248 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-13 16:34:46.866  WARN 40248 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.ssm.rental.mapper]' package. Please check your configuration.
+2024-03-13 16:34:48.337  INFO 40248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2024-03-13 16:34:48.372  INFO 40248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-13 16:34:48.377  INFO 40248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2024-03-13 16:34:51.167  INFO 40248 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-03-13 16:34:51.388  INFO 40248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-13 16:34:51.388  INFO 40248 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5455 ms
+2024-03-13 16:34:51.650  INFO 40248 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-03-13 16:34:51.851  INFO 40248 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-03-13 16:34:53.568  INFO 40248 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2024-03-13 16:34:53.712  INFO 40248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2024-03-13 16:34:53.719  INFO 40248 --- [main] com.javaclimb.shopping.Application       : Started Application in 8.666 seconds (JVM running for 9.269)
+2024-03-13 16:35:02.841  INFO 40248 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-13 16:35:02.842  INFO 40248 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-13 16:35:02.855  INFO 40248 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
