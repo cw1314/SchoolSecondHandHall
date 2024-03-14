@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.javaclimb.shopping.mapper.ProductMapper">
+    <select id="searchProduct" resultType="com.javaclimb.shopping.entity.Product">
+        select * from t_product
+        <where>
+            1=1
+            <if test="productSearchVo.status!=null" >
+                and status = #{productSearchVo.status}
+            </if>
+            <if test="productSearchVo.title!=null and productSearchVo.title!=''" >
+                and title like concat('%',#{productSearchVo.title},'%')
+            </if>
+            <if test="productSearchVo.city!=null and productSearchVo.city!=''" >
+                and city like concat('%',#{productSearchVo.city},'%')
+            </if>
+            <if test="productSearchVo.productType!=null and productSearchVo.productType!=''" >
+                and product_type = #{productSearchVo.productType}
+            </if>
+           <!-- <if test="productSearchVo.minPrice!=null" >
+                and price &gt;= #{productSearchVo.minPrice}
+            </if>
+            <if test="productSearchVo.maxPrice!=null" >
+                and price &lt;= #{productSearchVo.maxPrice}
+            </if>-->
+
+        </where>
+    </select>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
